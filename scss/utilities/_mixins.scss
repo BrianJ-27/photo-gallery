@@ -1,0 +1,17 @@
+@mixin flex_me (
+    $dir:null,
+    $wrap:null,
+    $just:null,
+    $align:null)
+    {
+      display: flex;
+      flex-direction: $dir;
+      flex-wrap: $wrap;
+      justify-content: $just;
+      align-items: $align;
+    }
+
+@mixin centered {
+  display: block;
+  margin: 0 auto;
+}
