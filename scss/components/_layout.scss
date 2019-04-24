@@ -5,3 +5,7 @@
 .wrapper{
   @include flex_me($dir:column, $wrap:wrap, $just:center);
 }
+
+.photo_container{
+  @include centered;
+}

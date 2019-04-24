@@ -1,0 +1,7 @@
+//*==================================
+// Images
+//*==================================
+.my_photos{
+  @include flex_me($wrap:wrap, $just:space-between);
+
+}

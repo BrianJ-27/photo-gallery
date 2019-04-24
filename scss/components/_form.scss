@@ -1,0 +1,15 @@
+//*==================================
+// Form Styles
+//*==================================
+
+
+label{
+  text-align: center;
+}
+
+input{
+  width: 50%;
+  @include centered;
+  height: 30px;
+  border-radius: 5px;
+}
