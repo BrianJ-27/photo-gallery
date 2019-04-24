@@ -1,0 +1,8 @@
+//*==================================
+// Typography
+//*==================================
+.search_field{
+  @include flex_me($dir:column, $wrap:wrap, $just:center);
+  font-family: $main-font;
+  width: 100%;
+}

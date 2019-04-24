@@ -1,6 +1,7 @@
 //*==================================
-// Typography
+// Layout
 //*==================================
-.search_field{
-  font-family: $main-font;
+
+.wrapper{
+  @include flex_me($dir:column, $wrap:wrap, $just:center);
 }

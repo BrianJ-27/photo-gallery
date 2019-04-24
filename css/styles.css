@@ -305,7 +305,18 @@ template {
 [hidden] {
   display: none; }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center; }
+
 .search_field {
-  font-family: "PT Sans Narrow", sans-serif; }
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "PT Sans Narrow", sans-serif;
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
