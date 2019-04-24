@@ -305,4 +305,7 @@ template {
 [hidden] {
   display: none; }
 
+.search_field {
+  font-family: "PT Sans Narrow", sans-serif; }
+
 /*# sourceMappingURL=styles.css.map */
