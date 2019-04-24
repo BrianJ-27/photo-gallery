@@ -1,0 +1,24 @@
+//*==================================
+// Variables
+//*==================================
+
+//Font Colors
+$olive-green: #30413F;
+$white: #fff;
+$black: #000;
+
+//Site Colors
+$primary-color: $olive-green;
+$primary-dark: darken($primary-color, 25%);
+$primary-light: lighten($primary-color, 25%);
+$complementary-image-color: complement($primary-color);
+
+//font
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Oxygen|PT+Sans+Narrow');
+$main-font: 'PT Sans Narrow', sans-serif;
+$secondary-font: 'Oxygen', sans-serif;
+
+//Typography
+$base-font-size: 16px;
+$boldly-thick: bold;
