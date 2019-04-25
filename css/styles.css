@@ -366,7 +366,7 @@ input:focus {
 a img {
   padding: 25px;
   filter: grayscale(100%);
-  transition: filter transform .03s ease-in; }
+  transition: filter .6s ease-in; }
 
 a img:hover {
   filter: grayscale(0%);
