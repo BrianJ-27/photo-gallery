@@ -1,7 +1,10 @@
 //*==================================
 // Images
 //*==================================
-.my_photos{
-  @include flex_me($wrap:wrap, $just:space-between);
+#my_photos{
+  @include flex_me($wrap:wrap, $just:space-around);
+}
 
+img{
+  padding: 25px;
 }
