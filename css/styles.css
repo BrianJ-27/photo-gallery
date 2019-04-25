@@ -337,6 +337,9 @@ input {
   display: block;
   margin: 0 auto; }
 
+form {
+  background-color: #413032; }
+
 label {
   text-align: center;
   margin: .5em 0; }
@@ -368,9 +371,11 @@ img {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  font-family: "PT Sans Narrow", sans-serif; }
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: bold;
+  color: #fff; }
 
 label[for="search"] {
-  font-size: 50px; }
+  font-size: 40px; }
 
 /*# sourceMappingURL=styles.css.map */

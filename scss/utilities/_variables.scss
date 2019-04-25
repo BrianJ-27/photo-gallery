@@ -12,6 +12,7 @@ $primary-color: $olive-green;
 $primary-dark: darken($primary-color, 25%);
 $primary-light: lighten($primary-color, 25%);
 $complementary-image-color: complement($primary-color);
+$form-field-color: antiquewhite;
 
 //font
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
