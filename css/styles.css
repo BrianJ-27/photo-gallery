@@ -8,7 +8,7 @@ input {
   background-color: #f2f2f2;
   border-radius: 5px;
   height: 30px;
-  width: 50%; }
+  width: 40%; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -371,6 +371,6 @@ img {
   font-family: "PT Sans Narrow", sans-serif; }
 
 label[for="search"] {
-  font-size: 30px; }
+  font-size: 50px; }
 
 /*# sourceMappingURL=styles.css.map */
