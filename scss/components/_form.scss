@@ -16,3 +16,10 @@ input{
 input[placeholder]{
   padding-left: .5em;
 }
+
+input:focus{
+  @extend %field-border;
+  background-color: antiquewhite;
+  transition: background-color .3s;
+  box-shadow: 0 0 5px 2px;
+}

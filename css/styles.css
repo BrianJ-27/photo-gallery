@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow");
 @import url("https://fonts.googleapis.com/css?family=Oxygen|PT+Sans+Narrow");
+input:focus {
+  border: 1px solid #413032;
+  outline: #413032; }
+
 input {
   background-color: #f2f2f2;
   border-radius: 5px;
@@ -345,6 +349,11 @@ input {
 
 input[placeholder] {
   padding-left: .5em; }
+
+input:focus {
+  background-color: antiquewhite;
+  transition: background-color .3s;
+  box-shadow: 0 0 5px 2px; }
 
 #my_photos {
   display: flex;
