@@ -5,6 +5,6 @@
   @include flex_me($wrap:wrap, $just:space-around);
 }
 
-img{
+img[alt]{
   padding: 25px;
 }
