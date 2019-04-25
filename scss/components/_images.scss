@@ -5,6 +5,13 @@
   @include flex_me($wrap:wrap, $just:space-around);
 }
 
-img[alt]{
+a img {
   padding: 25px;
+  filter: grayscale(100%);
+  transition: filter transform .03s ease-in;
+}
+
+a img:hover{
+  filter: grayscale(0%);
+  transform: scale(1.1);
 }

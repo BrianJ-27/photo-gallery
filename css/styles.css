@@ -363,8 +363,14 @@ input:focus {
   flex-wrap: wrap;
   justify-content: space-around; }
 
-img {
-  padding: 25px; }
+a img {
+  padding: 25px;
+  filter: grayscale(100%);
+  transition: filter transform .03s ease-in; }
+
+a img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1); }
 
 .search_field {
   display: flex;
