@@ -1,6 +1,5 @@
-lightbox.option({
-  'alwaysShowNavOnTouchDevices': true // turn on navigation arrows?
-})
-
-//call the option method??
-lightbox.option()
+lightbox.options({
+      'resizeDuration': 200,
+      'alwaysShowNavOnTouchDevices': true,
+      'wrapAround': true
+    })
