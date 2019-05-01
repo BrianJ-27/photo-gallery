@@ -13,7 +13,7 @@ lightbox.option({
   var inputField = document.getElementById('search').value.toLowerCase();
 //create a variable that stores the anchor tags for the images
    var aTag = document.querySelectorAll('#my_photos a');
-// create a loop that iterates theu each data-title caption values.
+// create a loop that iterates thru each data-title caption values.
    for (var i = 0; i < aTag.length; i++ ){
      var imgCap = aTag[i].getAttribute("data-title").toLowerCase();
      var match = imgCap.includes(inputField);
@@ -21,9 +21,7 @@ lightbox.option({
      if (match){
        aTag[i].style.display = "";
      }else{
-      aTag[i].style.display = none;
+      aTag[i].style.display = "none";
      }
    }
  }
-
- searchField();
