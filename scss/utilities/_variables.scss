@@ -23,3 +23,9 @@ $secondary-font: 'Oxygen', sans-serif;
 //Typography
 $base-font-size: 16px;
 $boldly-thick: bold;
+
+// Media Query Breakpoint Map
+    $breakpoints: (
+    'md': 768px,
+    'lg': 992px,
+    );

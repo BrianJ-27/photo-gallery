@@ -12,8 +12,12 @@ label{
 
 input{
   @extend %form-field;
+  width: 70%;
   @include centered;
   margin-bottom: 2em;
+  @include mq('md'){
+    width: 40%;
+  }
 }
 
 input[placeholder]{
