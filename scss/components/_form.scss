@@ -3,6 +3,9 @@
 //*==================================
 form{
   background-color: $complementary-image-color;
+  @include mq('md'){
+    background-color: $primary-dark;
+  }
 }
 
 label{
