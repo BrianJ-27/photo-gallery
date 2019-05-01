@@ -1,7 +1,9 @@
-lightbox.options({
-      'resizeDuration': 200,
-      'alwaysShowNavOnTouchDevices': false,
-      'wrapAround': true
-    })
+lightbox.option({
+    'resizeDuration': 700,
+    'wrapAround': true,
+    'alwaysShowNavOnTouchDevices': true,
+    'showImageNumberLabel' : false
+  })
 
-lightbox.options(); // is this right??
+  lightbox.option();
+$('mygallery').hide();
