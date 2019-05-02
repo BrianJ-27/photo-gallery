@@ -7,5 +7,7 @@
 
 a img {
   padding: 25px;
-  @include grayscale;
+  @include mq("md"){
+   @include grayscale;
+  }  
 }

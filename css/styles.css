@@ -370,12 +370,14 @@ input:focus {
   justify-content: space-around; }
 
 a img {
-  padding: 25px;
-  filter: grayscale(100%);
-  transition: filter .6s ease-in; }
-  a img:hover {
-    filter: grayscale(0%);
-    transform: scale(1.1); }
+  padding: 25px; }
+  @media (min-width: 768px) {
+    a img {
+      filter: grayscale(100%);
+      transition: filter .6s ease-in; }
+      a img:hover {
+        filter: grayscale(0%);
+        transform: scale(1.1); } }
 
 .search_field {
   display: flex;
