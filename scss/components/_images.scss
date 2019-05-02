@@ -6,8 +6,8 @@
 }
 
 a img {
-  padding: 25px;
+  margin: 25px;
   @include mq("md"){
    @include grayscale;
-  }  
+  }
 }

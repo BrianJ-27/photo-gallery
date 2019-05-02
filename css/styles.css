@@ -370,7 +370,7 @@ input:focus {
   justify-content: space-around; }
 
 a img {
-  padding: 25px; }
+  margin: 25px; }
   @media (min-width: 768px) {
     a img {
       filter: grayscale(100%);
