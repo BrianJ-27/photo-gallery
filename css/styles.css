@@ -338,9 +338,6 @@ input {
 
 form {
   background-color: #413032; }
-  @media (min-width: 768px) {
-    form {
-      background-color: black; } }
 
 label {
   text-align: center;
