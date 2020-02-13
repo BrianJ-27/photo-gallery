@@ -2,7 +2,7 @@
 // Form Styles
 //*==================================
 form{
-  background-color: $complementary-image-color;
+  background: linear-gradient(to left, $black, #1d2dd8);
 }
 
 label{
@@ -11,6 +11,10 @@ label{
 }
 
 input{
+  color: $white;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
   @extend %form-field;
   width: 70%;
   @include centered;
@@ -20,13 +24,17 @@ input{
   }
 }
 
+::placeholder{
+  color: $white;
+}
+
 input[placeholder]{
   padding-left: .5em;
+  font-size: 1.5em;
 }
 
 input:focus{
-  @extend %field-border;
-  background-color: $form-field-color;
   transition: background-color .3s;
-  box-shadow: 0 0 5px 2px;
+  outline: none;
+  border-bottom: 2px solid $white;
 }
